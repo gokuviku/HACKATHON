@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+li {
+    padding-inline: 12px;
+    padding-block: 6px;
+}
+.first-li{
+    background: #FFF3F4;
+}
+li:hover {
+    background: #FFF3F4;
+    cursor: pointer;
+}
+
+.icons {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+}
+
+.usa {
+    width: 20px;
+    height: 20px;
+    background-color: #C8242F;
+}
+
+.canada {
+    width: 20px;
+    height: 20px;
+    background-color: #A2B86C;
+}
+
+.russia {
+    width: 20px;
+    height: 20px;
+    background-color: #F16C20;
+}
+
+.india {
+    width: 20px;
+    height: 20px;
+    background-color: #EBC844;
+}
+
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 20;
+    left: 30;
+}
+@media (min-width:576px) {
+    .dis-none {
+        display: none;
+    }
+}
